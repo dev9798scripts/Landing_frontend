@@ -13,7 +13,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import axios from 'axios'
 
 const base = axios.create({
-  baseURL: 'http://localhost:8000'
+  baseURL: 'https://landingbn.herokuapp.com/'
 })
 
 Vue.prototype.$http = base
